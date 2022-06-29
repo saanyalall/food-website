@@ -1,0 +1,206 @@
+#navbar{
+    position: relative;
+    display: flex;
+}
+
+.logo {
+    margin: 0px 1px;
+}
+
+.logo img {
+    height: 52px;
+    margin: 2px 2px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(27, 238, 80);
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    margin: 10px;
+    padding: 6px 11px;
+    border-radius: 11px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+
+}
+.photo {
+    width: 50%;
+    border: 5px solid black;
+    padding: 10px;
+}
+.picture {
+    width: 100%;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    padding: 57px 85px;
+    margin: -31px 65px;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+
+}
+/* .flex {
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+    align-items: center;
+} */
+
+#home::before {
+    content: "";
+    background-image: url(../img/abendbrot-939435_1280.jpg);
+    position: absolute;
+    display: flex;
+    height: 106%;
+    width: 100%;
+    opacity: 1.1;
+    z-index: -1;
+
+
+}
+.container .h-primary-center{
+    /* padding: 79px 83px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    padding-top: 55px;
+    padding-bottom: 10px
+
+}
+    
+#service{
+    display: flex;
+    
+  
+}
+
+#service .box{
+    /* border: 4px solid rgb(26, 54, 63); */
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+   
+    /* border-radius: 34px; */
+  
+}
+#service.box img{
+    height: 62px;
+    margin: auto;
+    display: block;
+   
+}
+/* .h-primary-center{
+    padding: 34px;
+    color: white;
+} */
+#client-section{
+    height: 316px;
+    position: relative;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 100%;
+   background-image: url(../img/outdoor-dining-1846137_640.jpg);
+    opacity: 0.3;
+    z-index: -1
+}
+ 
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-primary-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#clients img{
+    height: 124px;
+}
+.client-item{
+    padding: 34px;
+}
+#contact-us{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us::before{
+    content: "";
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+    background-image: url('../img/contact-us-gf481fb954_1280.jpg');
+    /* background-size:auto; */
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 1.4;
+    /* margin-top: 50px;
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+} 
+.h-primary-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 13px 26px;
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    width: 100%;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contactbox input,
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    
+}
+button{
+  margin: 21px 97px;
+}
+footer{
+    background:black;
+    padding: 9px 34px;
+    color: blanchedalmond;
+
+}
+
